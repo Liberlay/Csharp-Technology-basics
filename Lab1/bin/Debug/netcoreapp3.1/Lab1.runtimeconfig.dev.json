@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\Liberlay\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\Liberlay\\.nuget\\packages"
+    ]
+  }
+}

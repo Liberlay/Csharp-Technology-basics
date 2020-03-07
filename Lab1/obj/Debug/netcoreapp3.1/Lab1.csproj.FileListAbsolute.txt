@@ -1,0 +1,11 @@
+E:\Csharp-Technology-basics\Lab1\obj\Debug\netcoreapp3.1\Lab1.csprojAssemblyReference.cache
+E:\Csharp-Technology-basics\Lab1\obj\Debug\netcoreapp3.1\Lab1.AssemblyInfoInputs.cache
+E:\Csharp-Technology-basics\Lab1\obj\Debug\netcoreapp3.1\Lab1.AssemblyInfo.cs
+E:\Csharp-Technology-basics\Lab1\bin\Debug\netcoreapp3.1\Lab1.exe
+E:\Csharp-Technology-basics\Lab1\bin\Debug\netcoreapp3.1\Lab1.deps.json
+E:\Csharp-Technology-basics\Lab1\bin\Debug\netcoreapp3.1\Lab1.runtimeconfig.json
+E:\Csharp-Technology-basics\Lab1\bin\Debug\netcoreapp3.1\Lab1.runtimeconfig.dev.json
+E:\Csharp-Technology-basics\Lab1\bin\Debug\netcoreapp3.1\Lab1.dll
+E:\Csharp-Technology-basics\Lab1\bin\Debug\netcoreapp3.1\Lab1.pdb
+E:\Csharp-Technology-basics\Lab1\obj\Debug\netcoreapp3.1\Lab1.dll
+E:\Csharp-Technology-basics\Lab1\obj\Debug\netcoreapp3.1\Lab1.pdb
