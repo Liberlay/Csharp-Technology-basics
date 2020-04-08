@@ -1,0 +1,11 @@
+E:\Csharp-Technology-basics\Lab2a\bin\Debug\netcoreapp3.1\Lab2a.exe
+E:\Csharp-Technology-basics\Lab2a\bin\Debug\netcoreapp3.1\Lab2a.deps.json
+E:\Csharp-Technology-basics\Lab2a\bin\Debug\netcoreapp3.1\Lab2a.runtimeconfig.json
+E:\Csharp-Technology-basics\Lab2a\bin\Debug\netcoreapp3.1\Lab2a.runtimeconfig.dev.json
+E:\Csharp-Technology-basics\Lab2a\bin\Debug\netcoreapp3.1\Lab2a.dll
+E:\Csharp-Technology-basics\Lab2a\bin\Debug\netcoreapp3.1\Lab2a.pdb
+E:\Csharp-Technology-basics\Lab2a\obj\Debug\netcoreapp3.1\Lab2a.csprojAssemblyReference.cache
+E:\Csharp-Technology-basics\Lab2a\obj\Debug\netcoreapp3.1\Lab2a.AssemblyInfoInputs.cache
+E:\Csharp-Technology-basics\Lab2a\obj\Debug\netcoreapp3.1\Lab2a.AssemblyInfo.cs
+E:\Csharp-Technology-basics\Lab2a\obj\Debug\netcoreapp3.1\Lab2a.dll
+E:\Csharp-Technology-basics\Lab2a\obj\Debug\netcoreapp3.1\Lab2a.pdb
