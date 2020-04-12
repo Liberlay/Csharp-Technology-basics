@@ -1,0 +1,9 @@
+E:\Csharp-Technology-basics\Lab2b\bin\Debug\Lab2b.exe.config
+E:\Csharp-Technology-basics\Lab2b\bin\Debug\Lab2b.exe
+E:\Csharp-Technology-basics\Lab2b\bin\Debug\Lab2b.pdb
+E:\Csharp-Technology-basics\Lab2b\obj\Debug\Lab2b.csprojAssemblyReference.cache
+E:\Csharp-Technology-basics\Lab2b\obj\Debug\Lab2b.Form1.resources
+E:\Csharp-Technology-basics\Lab2b\obj\Debug\Lab2b.Properties.Resources.resources
+E:\Csharp-Technology-basics\Lab2b\obj\Debug\Lab2b.csproj.GenerateResource.cache
+E:\Csharp-Technology-basics\Lab2b\obj\Debug\Lab2b.exe
+E:\Csharp-Technology-basics\Lab2b\obj\Debug\Lab2b.pdb
