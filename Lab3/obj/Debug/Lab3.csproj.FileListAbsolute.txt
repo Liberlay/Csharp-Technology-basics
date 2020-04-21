@@ -1,0 +1,9 @@
+E:\Csharp-Technology-basics\Lab3\bin\Debug\Lab3.exe.config
+E:\Csharp-Technology-basics\Lab3\bin\Debug\Lab3.exe
+E:\Csharp-Technology-basics\Lab3\bin\Debug\Lab3.pdb
+E:\Csharp-Technology-basics\Lab3\obj\Debug\Lab3.csprojAssemblyReference.cache
+E:\Csharp-Technology-basics\Lab3\obj\Debug\Lab3.Form1.resources
+E:\Csharp-Technology-basics\Lab3\obj\Debug\Lab3.Properties.Resources.resources
+E:\Csharp-Technology-basics\Lab3\obj\Debug\Lab3.csproj.GenerateResource.cache
+E:\Csharp-Technology-basics\Lab3\obj\Debug\Lab3.exe
+E:\Csharp-Technology-basics\Lab3\obj\Debug\Lab3.pdb
