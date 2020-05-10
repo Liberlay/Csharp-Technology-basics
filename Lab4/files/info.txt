@@ -1,0 +1,41 @@
+
+Square:    S1 (5,8)
+Diagonal:  8,2
+Perimeter: 23,2
+Square:    33,64
+
+Square:    S2 (2,06)
+Diagonal:  2,91
+Perimeter: 8,24
+Square:    4,24
+
+Square:    S3 (8,7)
+Diagonal:  12,3
+Perimeter: 34,8
+Square:    75,69
+
+Square:    S4 (9,81)
+Diagonal:  13,87
+Perimeter: 39,24
+Square:    96,24
+
+Square:    S5 (4,29)
+Diagonal:  6,07
+Perimeter: 17,16
+Square:    18,4
+
+Pyramid:    P1 (8,17)
+Square:    99,68
+Volume: 158,13
+
+Pyramid:    P2 (5,9)
+Square:    89,44
+Volume: 82,81
+
+Pyramid:    P3 (5,02)
+Square:    74,14
+Volume: 70,21
+
+Pyramid:    P4 (7,52)
+Square:    125,43
+Volume: 98,59
