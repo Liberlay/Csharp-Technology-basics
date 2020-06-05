@@ -1,0 +1,204 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{11BA1FB3-E9F5-4AE7-B0BD-E43668182487}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Course</RootNamespace>
+    <AssemblyName>Course</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="FileDB.cs" />
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormChooseDB.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormChooseDB.Designer.cs">
+      <DependentUpon>FormChooseDB.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormChooseExistDB.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormChooseExistDB.Designer.cs">
+      <DependentUpon>FormChooseExistDB.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormChooseReadDB.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormChooseReadDB.Designer.cs">
+      <DependentUpon>FormChooseReadDB.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormDBAddData.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormDBAddData.Designer.cs">
+      <DependentUpon>FormDBAddData.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormDBPriceList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormDBPriceList.Designer.cs">
+      <DependentUpon>FormDBPriceList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormEditDB.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormEditDB.Designer.cs">
+      <DependentUpon>FormEditDB.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormMoreThen100.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormMoreThen100.Designer.cs">
+      <DependentUpon>FormMoreThen100.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormOutputDB.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormOutputDB.Designer.cs">
+      <DependentUpon>FormOutputDB.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormPassword.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormPassword.Designer.cs">
+      <DependentUpon>FormPassword.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormProductsInPharmacy.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormProductsInPharmacy.Designer.cs">
+      <DependentUpon>FormProductsInPharmacy.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormRemoveDB.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormRemoveDB.Designer.cs">
+      <DependentUpon>FormRemoveDB.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormRemoveExpired.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormRemoveExpired.Designer.cs">
+      <DependentUpon>FormRemoveExpired.cs</DependentUpon>
+    </Compile>
+    <Compile Include="KeySearchDB.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KeySearchDB.Designer.cs">
+      <DependentUpon>KeySearchDB.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pharmacy.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormChooseDB.resx">
+      <DependentUpon>FormChooseDB.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormChooseExistDB.resx">
+      <DependentUpon>FormChooseExistDB.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormChooseReadDB.resx">
+      <DependentUpon>FormChooseReadDB.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormDBAddData.resx">
+      <DependentUpon>FormDBAddData.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormDBPriceList.resx">
+      <DependentUpon>FormDBPriceList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormEditDB.resx">
+      <DependentUpon>FormEditDB.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormMoreThen100.resx">
+      <DependentUpon>FormMoreThen100.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormOutputDB.resx">
+      <DependentUpon>FormOutputDB.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormPassword.resx">
+      <DependentUpon>FormPassword.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormProductsInPharmacy.resx">
+      <DependentUpon>FormProductsInPharmacy.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormRemoveDB.resx">
+      <DependentUpon>FormRemoveDB.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormRemoveExpired.resx">
+      <DependentUpon>FormRemoveExpired.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KeySearchDB.resx">
+      <DependentUpon>KeySearchDB.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\DataSources\FormOutputDB.datasource" />
+    <None Include="Properties\DataSources\Pharmacy.datasource" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
